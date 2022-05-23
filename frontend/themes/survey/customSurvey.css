@@ -1,0 +1,33 @@
+.sd-root-modern {
+    min-height: 100%;
+}
+
+.sv-action-bar-item__title {
+    color: var(--primary);
+}
+
+[theme~="dark"] {
+    --background: var(--lumo-base-color);
+    --background-dim: rgb(44, 44, 44);
+    --background-dim-light: rgb(112, 112, 112);
+    --foreground: var(--lumo-header-text-color);
+    --foreground-light: var(--lumo-body-text-color);
+    --primary: var(--lumo-primary-color);
+    --border: var(--lumo-tint-50pct);
+    --secondary: var(--lumo-primary-color-50pct);
+    --secondary-back-light: var(--lumo-primary-color-10pct, rgba(255, 152, 20, 0.1));
+    /*default*/
+    --red: #e60a3e;
+    /*default*/
+    --red-light: rgba(230, 10, 62, 0.1);
+}
+
+[theme~="dark"] .sv-ranking-item__ghost,
+[theme~="dark"] .sv-ranking-item__content,
+[theme~="dark"] .sv-ranking {
+    background-color: var(--background-dim-light);
+}
+
+[theme~="dark"] .sv-ranking {
+    background-color: var(--background-dim-light) !important;
+}

@@ -1,0 +1,49 @@
+{
+	"title": "Survey",
+	"description": "Description",
+	"logo": "/Knoell_Logo_4c3_slim.png",
+	"logoWidth": "200px",
+	"logoHeight": "170px",
+	"logoPosition": "right",
+	"focusOnFirstError": false,
+	"completedHtml": "<div style=\"align-items:center;width:100%;display:flex;flex-flow:column;padding:var(--lumo-space-l);box-sizing:border-box;\">\n<img src=\"./tickcirclelinear_106244.svg\" alt=\"completed image\" style=\"max-height: 150px; max-width: 150px;\"><h2>Survey completed</h2><p style=\"text-align: center;\">Thanks for completing this survey provided.</p><p style=\"text-align: center;\">You do not need to do anything else and you can close this page.</p>\n</div>",
+	"pages": [
+		{
+			"name": "disclaimer_page",
+			"elements": [
+				{
+					"type": "panel",
+					"name": "disclaimer_panel",
+					"elements": [
+						{
+							"type": "text",
+							"name": "question2",
+							"title": "Answer to the Ultimate Question of Life, the Universe, and Everything",
+							"inputType": "number",
+							"min": 42,
+							"max": 42
+						},
+						{
+							"type": "boolean",
+							"name": "question3",
+							"title": "Does the creator work?"
+						}
+					]
+				}
+			],
+			"title": "Legal Disclaimer",
+			"description": "Information about the usage of you data"
+		},
+		{
+			"name": "page2",
+			"elements": [
+				{
+					"type": "text",
+					"name": "question1",
+					"title": "Start with your survey here"
+				}
+			]
+		}
+	],
+	"showPageNumbers": true
+}
